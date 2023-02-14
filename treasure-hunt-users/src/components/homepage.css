@@ -1,0 +1,59 @@
+
+.homepage{
+  padding: 30px;
+}
+
+
+.add-edit-input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+
+  font-size: 16px;
+  letter-spacing: 0.5px;
+
+  border: none;
+}
+.add-edit-input:focus{
+  outline: none;
+}
+.add-confirm-icon {
+  position: absolute;
+  transform: scale(2);
+  top: 157px;
+  right: 75px;
+  cursor: pointer;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.todo > h1 {
+  width: 500px;
+  background-color: rgb(211, 211, 211);
+  padding: 5px 10px;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.logout-icon {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  background: red;
+  color: white;
+}
